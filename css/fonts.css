@@ -1,4 +1,48 @@
+@import "colors.css";
+@import "main.css";
+
 @font-face {
-    font-family:'roboto' ;
-    src: url("./fonts/roboto");
+    font-family:"roboto" ;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format('truetype');
+}
+
+body{
+    font-family: "roboto";
+}
+
+h1{
+    font-size: 46px;
+    font-weight: 900; 
+    color:var(--logo);
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 900;
+    color:var(--bg-header);
+}
+h5{
+    color:var(--logo);
+    font-size: 24px;
+    margin-bottom: 0%;
+}
+h6{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color:var(--bg-header);
+}
+
+p{
+    text-align: left;
+    color: var(--secondary);
+}
+
+.thor{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.footer h5{
+    font-size: 16px;
 }

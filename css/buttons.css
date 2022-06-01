@@ -1,0 +1,15 @@
+@import "colors.css";
+
+.myButton {
+	background-color:var(--button);
+	border-radius:12px;
+	cursor:pointer;
+	color:white;
+    border:2px solid var(--button);
+	font-size:15px;
+	padding:10px 40px;
+	text-decoration:none;
+}
+
+
+    
